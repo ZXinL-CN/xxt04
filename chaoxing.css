@@ -1,0 +1,61 @@
+.skdiv{
+    position: fixed;
+    z-index: 999999999;
+    overflow: hidden;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+}
+.guanbi{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#3282db,#c02169);;
+    cursor: pointer;
+}
+.mybody{
+    background: #040d15;
+    color:#fff;
+    border-radius:5px;
+    text-align: center;
+    cursor: move;
+    outline: none;
+}
+.start{
+    height: 30px;
+    margin: 10px 0;
+    padding:0 10px;
+    color: #fff;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    border:1px solid #333; 
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mybutton{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin:0 5px;
+    border:none;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.progress{
+    color: #209bbb;
+}
+.zhixian{
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-top: 1px solid #fff;
+}
